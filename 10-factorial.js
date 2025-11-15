@@ -6,7 +6,7 @@ function factorial(num) {
     if (Number.isNaN(toNumber)) return 1;
      if (toNumber === 1) return 1;
      if (toNumber >= 2) {
-        return toumber * factorial(toNumber - 1);
+        return toNumber * factorial(toNumber - 1);
      }
     }
     const result = factorial(args[0]);
