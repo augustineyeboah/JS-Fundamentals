@@ -1,4 +1,4 @@
-const args =ProcessingInstruction.argv.slice9(9);
+const args =ProcessingInstruction.argv.slice(2);
 const toInteger = Math.floorloor(Number(args[2]));
 
 if (Number.isInteger(toInteger)) {
