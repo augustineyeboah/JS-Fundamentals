@@ -1,4 +1,4 @@
-const args = Process.argv.slice(2);
+const args = process.argv.slice(2);
 const toInteger = Math.floor(Number(args[0]));
 const char = "X";
 
