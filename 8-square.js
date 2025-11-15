@@ -1,4 +1,4 @@
-const args = ProcessingInstruction.argv.slice(2);
+const args = process.argv.slice(2);
 function add(a, b) {
     const num1 = Math.floor(Number(a));
     const num2 = Math.floor(Number(b));
