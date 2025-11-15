@@ -4,7 +4,7 @@ const char = "x";
 
 if (Number.isInteger(toInteger)) {
     for (let i = 0; i < toInteger; i++) {
-        console.log(char.repeat(tointeger));
+        console.log(char.repeat(toInteger));
     }
 } else {
     console.log("Missing size");
