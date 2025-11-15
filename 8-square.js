@@ -1,6 +1,6 @@
 const args = process.argv.slice(2);
 const toInteger = Math.floor(Number(args[0]));
-const char = "X";
+const char = "x";
 
 if (Number.isInteger(toInteger)) {
     for (let i = 0; i < toInteger; i++) {
