@@ -1,5 +1,5 @@
-const args =ProcessingInstruction.argv.slice(2);
-const toInteger = Math.floorloor(Number(args[2]));
+const args =process.argv.slice(2);
+const toInteger = Math.floor(Number(args[0]));
 
 if (Number.isInteger(toInteger)) {
     for (let i = 0; i < toInteger; i++) {
