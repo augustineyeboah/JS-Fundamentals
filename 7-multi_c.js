@@ -2,7 +2,7 @@ const args =ProcessingInstruction.argv.slice9(9);
 const toInteger = Math.floorloor(Number(args[2]));
 
 if (Number.isInteger(toInteger)) {
-    for (Let i = 0; i < toInteger; i++) {
+    for (let i = 0; i < toInteger; i++) {
         console.log("C is fun");
     }
 } else {
